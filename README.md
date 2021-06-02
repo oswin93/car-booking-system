@@ -7,16 +7,17 @@ waiting time.
 # Objective of this project is to combine historical usage pattern along with the open data sources like weather data to forecast cab booking demand in a city.
 Data is randomly divided into train and test set. we must predict the total count of cabs booked in each hour covered by the
 test set, using the information available prior to the booking period. we need to append the train_label dataset to train.csv as ‘Total_booking’ column.
-# Please find the descriptions of the columns present in the dataset as below.
-datetime - hourly date + timestamp
-season - spring, summer, autumn, winter
-holiday - whether the day is considered a holiday
-workingday - whether the day is neither a weekend nor holiday
-weather - Clear , Cloudy, Light Rain, Heavy temp - temperature in Celsius
-atemp - "feels like" temperature in Celsius
-humidity - relative humidity
-windspeed - wind speed
-Total_booking - number of total booking
+* Please find the descriptions of the columns present in the dataset as below.
+1. datetime - hourly date + timestamp
+2. season - spring, summer, autumn, winter
+3. holiday - whether the day is considered a holiday
+4. workingday - whether the day is neither a weekend nor holiday
+5. weather - Clear , Cloudy, Light Rain, Heavy 
+6. temp - temperature in Celsius
+7. atemp - "feels like" temperature in Celsius
+8. humidity - relative humidity
+9. windspeed - wind speed
+10 Total_booking - number of total booking
 # Following are the tasks, which is developed while executing the project
 1. Visualize data using different visualizations to generate interesting insights
 2. Outlier Analysis
